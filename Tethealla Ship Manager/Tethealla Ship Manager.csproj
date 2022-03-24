@@ -7,7 +7,7 @@
     <ProjectGuid>{EA4B18B0-D362-48B7-A465-48E76477F01C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Tethealla_Ship_Manager</RootNamespace>
-    <AssemblyName>Tethealla Ship Manager</AssemblyName>
+    <AssemblyName>ship_manager</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
