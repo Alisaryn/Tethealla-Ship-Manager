@@ -3,3 +3,7 @@ A GUI companion tool for servers running Tethealla Phantasy Star Online: Blue Bu
 
 # Usage
 Place ship_manager.exe in the same directory as ship_server.exe and run. Default settings will be loaded if any config files were not found.
+
+# Version History
+1.0:
+- Initial release.
