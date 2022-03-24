@@ -452,7 +452,7 @@ namespace Tethealla_Ship_Settings_Editor
             }
             catch
             {
-                MessageBox.Show("The process 'ship_server.exe' was not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("The file 'ship_server.exe' was not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
         }
