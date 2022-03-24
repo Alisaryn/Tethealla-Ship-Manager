@@ -1,5 +1,5 @@
 # Tethealla Ship Manager
-A GUI companion tool for servers running Tethealla PSO:BB servers. (https://pioneer2.net)
+A GUI companion tool for servers running Tethealla Phantasy Star Online: Blue Burst servers (https://pioneer2.net).
 
 Allows management (start, stop, and restart) of a ship a server and its config file, as well as the local GM list.
 
