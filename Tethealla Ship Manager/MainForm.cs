@@ -75,8 +75,8 @@ namespace Tethealla_Ship_Settings_Editor
 
                     if (isRunning)
                     {
-                        lnkDown.Hide();
-                        lnkRunning.Show();
+                        lnkDown.Invoke(new MethodInvoker(() => lnkDown.Hide()));
+                        lnkRunning.Invoke(new MethodInvoker(() => lnkRunning.Show()));         
                         shipUp = false;             
                         IPGlobalProperties properties = IPGlobalProperties.GetIPGlobalProperties();
                         IPEndPoint[] endPoints = properties.GetActiveTcpListeners();
@@ -101,8 +101,8 @@ namespace Tethealla_Ship_Settings_Editor
                     }
                     else
                     {
-                        lnkDown.Show();
-                        lnkRunning.Hide();
+                        lnkDown.Invoke(new MethodInvoker(() => lnkDown.Show()));
+                        lnkRunning.Invoke(new MethodInvoker(() => lnkRunning.Hide()));
                         if (chkRestart.Checked == true)
                         {
                             // Restart the process and hide the console window!
@@ -111,8 +111,8 @@ namespace Tethealla_Ship_Settings_Editor
                             ship_process.StartInfo.UseShellExecute = true;
                             ship_process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                             ship_process.Start();
-                            lnkDown.Hide();
-                            lnkRunning.Show();
+                            lnkDown.Invoke(new MethodInvoker(() => lnkDown.Hide()));
+                            lnkRunning.Invoke(new MethodInvoker(() => lnkRunning.Show()));
                         }
                     }
                     Thread.Sleep(1000);
@@ -850,6 +850,7 @@ namespace Tethealla_Ship_Settings_Editor
             if (chkRestart.Checked == true) temp = 1;
             else temp = 0;
 
+            Hide();
             stop_ship_process();
 
             write_restart_flag(temp);
