@@ -827,7 +827,6 @@ namespace Tethealla_Ship_Settings_Editor
 
             foreach (Process p in pList)
             {
-                // A try-catch statement is needed here to catch exceptions due to weird Windows behavior, in case a program is closed while reading.
                 try
                 {
                     if (p.MainModule.FileName.StartsWith(FilePath, StringComparison.InvariantCultureIgnoreCase))
