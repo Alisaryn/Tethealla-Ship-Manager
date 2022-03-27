@@ -653,7 +653,7 @@ namespace Tethealla_Ship_Settings_Editor
             }
         }
 
-        // Remove GM button handler
+        // Remove GM button handler.
         private void button2_Click(object sender, EventArgs e)
         {
             if (lstGM.SelectedItem == null) return;
@@ -662,14 +662,14 @@ namespace Tethealla_Ship_Settings_Editor
             lstGM_SelectedIndexChanged(sender, e);
         }
 
-        // Add GM button handler
+        // Add GM button handler.
         private void button3_Click(object sender, EventArgs e)
         {
             AddGM addGM = new AddGM();
             addGM.ShowDialog(this);
         }
 
-        // Edit GM button handler
+        // Edit GM button handler.
         private void button1_Click_1(object sender, EventArgs e)
         {
             if (lstGM.SelectedItem != null)

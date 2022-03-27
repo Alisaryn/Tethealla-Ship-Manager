@@ -493,7 +493,7 @@ namespace Tethealla_Ship_Settings_Editor
             this.tabControl1.Location = new System.Drawing.Point(4, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(543, 273);
+            this.tabControl1.Size = new System.Drawing.Size(543, 274);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -514,7 +514,7 @@ namespace Tethealla_Ship_Settings_Editor
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(535, 247);
+            this.tabPage1.Size = new System.Drawing.Size(535, 248);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Ship Settings";
             // 
@@ -829,7 +829,7 @@ namespace Tethealla_Ship_Settings_Editor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 280);
+            this.ClientSize = new System.Drawing.Size(548, 279);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
