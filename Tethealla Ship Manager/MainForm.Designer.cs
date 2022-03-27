@@ -298,6 +298,7 @@ namespace Tethealla_Ship_Settings_Editor
             // 
             this.txtIP.Location = new System.Drawing.Point(133, 49);
             this.txtIP.Name = "txtIP";
+            this.txtIP.ReadOnly = true;
             this.txtIP.Size = new System.Drawing.Size(120, 20);
             this.txtIP.TabIndex = 2;
             // 
