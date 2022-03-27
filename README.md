@@ -7,5 +7,8 @@ To build, open the .sln file in Visual Studio.
 Place ship_manager.exe in the same directory as ship_server.exe and run. Default settings will be loaded if any config files were not found. Minimizing will minimize the window to the system tray, and closing ship_manager.exe will also close ship_server.exe.
 
 # Version History
+1.01:
+- Increased the tab border size slightly.
+
 1.0:
 - Initial release.
